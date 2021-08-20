@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  place-items: center;
+  background: lightblue;
+  grid-gap: 2em;
+}
+
+.card {
+  background: white;
+}
+span {
+  height: 100px;
+  display: block;
+  width: 100%;
+  background: #71a6b8;
+}
+
+p.date {
+  text-align: center;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+h3 {
+  margin: 0;
+}
+p.desc {
+  font-size: 0.9em;
+}
+
+/* 
+   Use the following properties
+   to fix the alignment and white
+   space issues on the rulesets
+   below this comment.
+   
+   margin, padding, text-align
+   
+*/
+
+body {
+  padding: 3em;
+}
+.content {
+  padding: 1em;
+}
+
+p.date {
+  text-align: center;
+  margin: 0em;
+}
+
+h3 {
+  text-align: center;
+}
+
+p.desc {
+  margin-bottom: 0em;
+  text-align: center;
+}
